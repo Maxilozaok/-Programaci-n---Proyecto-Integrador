@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 
-p{
-    color: aqua;
-}
-h1{
-    color: brown;
+body {
+	font-family: sans-serif, Verdana, Tahoma;
+	background-color: #228814;
 }
