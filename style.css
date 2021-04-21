@@ -4,5 +4,67 @@
 
 body {
 	font-family: sans-serif, Verdana, Tahoma;
-	background-color: #228814;
+	background-color: #ffffff;
+}
+.container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	
+}
+.main-nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+header{
+    display: flex;
+    background-color: sandybrown;
+    width: 1440px;
+	margin-bottom: 20px;
+	
+}
+.main-nav{
+    display: flex;
+    align-items: center;
+    width: 1440px; 
+    background-color: rgb(17, 126, 13);
+    padding: 12px 15px;
+	overflow: hidden;
+}
+.main-nav .menu{
+display: flex;
+	align-items: flex-end;
+}
+
+.logo {
+	margin-right: 30px;
+	border-radius: 510%;
+}
+.main-nav li {
+	margin-right: 30px;
+}
+.search-bar{
+	font-family: 'Times New Roman', Times, serif;
+}
+.search-bar button{
+	font-family: 'Times New Roman', Times, serif;
+    background-color: #3c8dbc;
+    border: 1px solid #3c8dbc;
+    color: #fff;
+    text-transform: capitalize;
+    width: 18%;
+    padding: 8px 6px;
+    border-radius: 10px;
+	cursor: pointer;
 }
