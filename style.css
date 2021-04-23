@@ -108,3 +108,11 @@ justify-content: center;
 h2{
     align-self: center;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+}
