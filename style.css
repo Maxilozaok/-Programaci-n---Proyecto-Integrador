@@ -116,3 +116,39 @@ footer{
     text-align: center;
     color: white;
 }
+.main{
+    width: 1000px;
+}
+.top-songs{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.cancion{
+    
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    width: 450px;
+}
+.cancion-image{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+.cancion .photo {
+    border-radius: 50%;
+    width: 200px;
+    align-self: center;
+    
+}
+.song-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
