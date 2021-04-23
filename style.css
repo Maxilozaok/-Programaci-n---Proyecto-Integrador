@@ -152,3 +152,11 @@ footer{
     padding: 5px;
     color: white;
 }
+a{
+    color: white;
+}
+ol{
+    color: white;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
