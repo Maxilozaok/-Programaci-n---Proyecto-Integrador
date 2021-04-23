@@ -79,9 +79,32 @@ justify-content: center;
     border-radius: 10px;
 	cursor: pointer;
 }
-.product{
+.top-artists{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+    
+}
+.artist{
     margin-bottom: 30px;
+    color: #fff;
+    width: 500px;
+    height: 500px;
+    
   }
-  .product .photo {
-    width: 30%;
+  .artist .photo {
+    width: 300px;
+    display: flex;
+    
   }
+.song-list li{
+    color: rgb(21, 158, 192);
+    list-style: none;
+    text-decoration: none;
+    align-self: center;
+}
+h2{
+    align-self: center;
+}
