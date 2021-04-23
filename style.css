@@ -160,3 +160,35 @@ ol{
     font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.top-albums{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+.album{
+    
+    display: flex;
+    margin: 5px 5px 5px 5px;
+    width: 450px;
+}
+.album-image{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+.album .photo-album {
+    border-radius: 50%;
+    width: 200px;
+    align-self: center;
+}
+.album-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
