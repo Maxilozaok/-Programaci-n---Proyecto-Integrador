@@ -192,3 +192,20 @@ ol{
     padding: 5px;
     color: white;
 }
+.generos{
+    
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1800px;
+}
+
+
+.foto1{
+    width: 292px;
+    height: 250px;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
