@@ -5,10 +5,17 @@
 body {
 	font-family: sans-serif, Verdana, Tahoma;
 	background-color: #ffffff;
+    background-image: url("img/fondo3.jpg");
+
 }
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
+}
+
+.logo {
+    width: 43%;
+    height:43%;
 }
 
 
@@ -40,7 +47,7 @@ li {
     display: flex;
     align-items: center;
     width: 100%; 
-    background-color: rgb(17, 126, 13);
+    background-color: darkblue;
     padding: 12px 15px;
 	overflow: hidden;
     justify-content: center;
